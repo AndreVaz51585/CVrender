@@ -1,0 +1,120 @@
+cv:
+  name: André Vaz
+  location: Lisbon, Portugal
+  email: andrevaz2005@gmail.com
+  phone: "+351935248411"
+  website: https://andrevaz51585.github.io/portfolio-andrevaz/
+
+  social_networks:
+    - network: LinkedIn
+      username: andré-filipe-de-sousa-vaz-491632333
+    - network: GitHub
+      username: AndreVaz51585
+
+  sections:
+
+    summary:
+      - >
+        Computer Engineering student based in Lisbon with a strong passion for software development,
+        problem solving, and building real-world applications. Focused on full-stack development,
+        system design, and understanding low-level computing concepts. Highly motivated to grow in
+        the fields of Cybersecurity and Artificial Intelligence, with hands-on experience across
+        backend systems, web applications, and mobile development.
+
+    education:
+      - institution: Instituto Superior de Engenharia de Lisboa (ISEL)
+        area: Computer Science and Engineering
+        degree: Bachelor of Engineering
+        start_date: 2023-09
+        end_date: present
+        highlights:
+          - >
+            Current Grade: 14/20.
+          - > 
+            Final-year student planning to pursue a Master's degree in
+            Computer Engineering with specialization in Cybersecurity and Artificial Intelligence.
+
+    skills:
+      - label: Programming Languages
+        details: Kotlin, JavaScript, Python, C, Assembly
+
+      - label: Web & Frameworks
+        details: Spring Boot, React, Node.js, Express, http4k, Jakarta, JPA
+
+      - label: Databases & DevOps
+        details: PostgreSQL, MongoDB, JDBC, Docker, Nginx
+
+      - label: Mobile & Tools
+        details: Jetpack Compose, Android Studio, Render, ngrok
+
+    projects:
+      - name: EvoLab as a Service
+        date: 2025
+        location: Lisbon, Portugal
+        highlights:
+          - >
+            Final-year capstone project: web platform to integrate the openEvolve library,
+            built with Kotlin and Spring Boot for the backend and React with TypeScript for
+            the frontend.
+          - >
+            User requests are persisted in a queue so workloads are processed asynchronously
+            and reliably under concurrent usage.
+          - >
+            A worker pool consumes queued jobs, orchestrates execution, and launches
+            containerized openEvolve runs.
+          - >
+            Integrates OAuth 2.0 and OpenID for secure authentication, Dockerized services,
+            and PostgreSQL for relational data storage.
+
+      - name: Poker Dice Web
+        date: 2025
+        location: Lisbon, Portugal
+        highlights:
+          - >
+            Multiplayer web-based game built with a Spring Boot (MVC) backend exposing a REST API
+            and a React frontend with SSE events.
+          - >
+            Fully containerized using Docker and served through Nginx, following a clean
+            full-stack architecture and supporting multiplayer gameplay logic.
+
+      - name: Poker Dice Android
+        date: 2025
+        location: Lisbon, Portugal
+        highlights:
+          - >
+            Native Android version of the Poker Dice game developed using Kotlin and Jetpack Compose.
+          - >
+            Implements a modern declarative UI, supports multiplayer sessions, and follows
+            clean architecture principles for maintainability and scalability.
+          - >
+            Uses SSE for real-time updates and integrates with the backend API for game logic
+            and state management.
+
+design:
+  theme: classic
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    headline: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+  typography:
+    font_family:
+      body: Times New Roman
+      name: Times New Roman
+      headline: Times New Roman
+      connections: Times New Roman
+      section_titles: Times New Roman
+  entries:
+    degree_width: 2.2cm
+  templates:
+    education_entry:
+      main_column: |-
+        **INSTITUTION**
+        *DEGREE - AREA*
+        HIGHLIGHTS
+      degree_column:
+      date_and_location_column: |-
+        LOCATION
+        DATE
