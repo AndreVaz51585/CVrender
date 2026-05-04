@@ -27,20 +27,20 @@ Sept 2023 – present
 
 
 # Skills
-**Programming Languages:** Kotlin, JavaScript, Python, C, Assembly
+**Programming Languages:** Kotlin, JavaScript, Python, C, Assembly, HTML, CSS, TypeScript.
 
-**Web & Frameworks:** Spring Boot, React, Node.js, Express, http4k, Jakarta, JPA
+**Web & Frameworks:** Spring Boot, React, FastApi, LangChain, Node.js, Express, http4k, Jakarta, JPA
 
-**Databases & DevOps:** PostgreSQL, MongoDB, JDBC, Docker, Nginx
+**Databases & DevOps:** PostgreSQL, MongoDB, JDBC, JDBI,ChromaDB, Docker, Nginx
 
 **Mobile & Tools:** Jetpack Compose, Android Studio, Render, ngrok
 
 # Projects
-## **EvoLab as a Service**
+## **EvoLab-as-a-Service**
 
 Lisbon, Portugal
 
-2025
+2026
 
 - Final-year capstone project: web platform to integrate the openEvolve library, built with Kotlin and Spring Boot for the backend and React with TypeScript for the frontend.
 
@@ -55,6 +55,28 @@ Lisbon, Portugal
 
 
 - Integrates OAuth 2.0 and OpenID for secure authentication, Dockerized services, and PostgreSQL for relational data storage.
+
+
+
+## **Veridict AI**
+
+Lisbon, Portugal
+
+2026
+
+- Advanced security analysis engine to detect phishing links, malicious text, and smishing attempts in real-time.
+
+
+
+- Implemented a 3-tier evaluation system (Rules Engine, Reputation Service, and AI Engine) to compute a weighted risk score and classify security threats.
+
+
+
+- Integrated Google Safe Browsing API, DNS resolution checks, and WHOIS domain age lookups for live threat verification.
+
+
+
+- Utilized local LLMs (via Ollama) paired with a ChromaDB RAG vector store to semantically evaluate text and generate contextual explanations for users.
 
 
 

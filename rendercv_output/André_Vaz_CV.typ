@@ -6,7 +6,7 @@
   name: "André Vaz",
   title: "André Vaz - CV",
   footer: context { [#emph[André Vaz -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Mar 2026] ],
+  top-note: [ #emph[Last updated in May 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 28,
+    month: 5,
+    day: 4,
   ),
 )
 
@@ -126,11 +126,11 @@ Computer Engineering student based in Lisbon with a strong passion for software 
 
 == Skills
 
-#strong[Programming Languages:] Kotlin, JavaScript, Python, C, Assembly
+#strong[Programming Languages:] Kotlin, JavaScript, Python, C, Assembly, HTML, CSS, TypeScript.
 
-#strong[Web & Frameworks:] Spring Boot, React, Node.js, Express, http4k, Jakarta, JPA
+#strong[Web & Frameworks:] Spring Boot, React, FastApi, LangChain, Node.js, Express, http4k, Jakarta, JPA
 
-#strong[Databases & DevOps:] PostgreSQL, MongoDB, JDBC, Docker, Nginx
+#strong[Databases & DevOps:] PostgreSQL, MongoDB, JDBC, JDBI,ChromaDB, Docker, Nginx
 
 #strong[Mobile & Tools:] Jetpack Compose, Android Studio, Render, ngrok
 
@@ -138,7 +138,7 @@ Computer Engineering student based in Lisbon with a strong passion for software 
 
 #regular-entry(
   [
-    #strong[EvoLab as a Service]
+    #strong[EvoLab-as-a-Service]
 
     - Final-year capstone project: web platform to integrate the openEvolve library, built with Kotlin and Spring Boot for the backend and React with TypeScript for the frontend.
 
@@ -158,7 +158,34 @@ Computer Engineering student based in Lisbon with a strong passion for software 
   [
     Lisbon, Portugal
 
-    2025
+    2026
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Veridict AI]
+
+    - Advanced security analysis engine to detect phishing links, malicious text, and smishing attempts in real-time.
+
+    
+
+    - Implemented a 3-tier evaluation system (Rules Engine, Reputation Service, and AI Engine) to compute a weighted risk score and classify security threats.
+
+    
+
+    - Integrated Google Safe Browsing API, DNS resolution checks, and WHOIS domain age lookups for live threat verification.
+
+    
+
+    - Utilized local LLMs (via Ollama) paired with a ChromaDB RAG vector store to semantically evaluate text and generate contextual explanations for users.
+
+  ],
+  [
+    Lisbon, Portugal
+
+    2026
 
   ],
 )

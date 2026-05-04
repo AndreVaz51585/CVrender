@@ -36,20 +36,20 @@ cv:
 
     skills:
       - label: Programming Languages
-        details: Kotlin, JavaScript, Python, C, Assembly
+        details: Kotlin, JavaScript, Python, C, Assembly, HTML, CSS, TypeScript.
 
       - label: Web & Frameworks
-        details: Spring Boot, React, Node.js, Express, http4k, Jakarta, JPA
+        details: Spring Boot, React, FastApi, LangChain, Node.js, Express, http4k, Jakarta, JPA
 
       - label: Databases & DevOps
-        details: PostgreSQL, MongoDB, JDBC, Docker, Nginx
+        details: PostgreSQL, MongoDB, JDBC, JDBI,ChromaDB, Docker, Nginx
 
       - label: Mobile & Tools
         details: Jetpack Compose, Android Studio, Render, ngrok
 
     projects:
-      - name: EvoLab as a Service
-        date: 2025
+      - name: EvoLab-as-a-Service
+        date: 2026
         location: Lisbon, Portugal
         highlights:
           - >
@@ -65,6 +65,19 @@ cv:
           - >
             Integrates OAuth 2.0 and OpenID for secure authentication, Dockerized services,
             and PostgreSQL for relational data storage.
+
+      - name: Veridict AI
+        date: 2026
+        location: Lisbon, Portugal
+        highlights:
+          - >
+            Advanced security analysis engine to detect phishing links, malicious text, and smishing attempts in real-time.
+          - >
+            Implemented a 3-tier evaluation system (Rules Engine, Reputation Service, and AI Engine) to compute a weighted risk score and classify security threats.
+          - >
+            Integrated Google Safe Browsing API, DNS resolution checks, and WHOIS domain age lookups for live threat verification.
+          - >
+            Utilized local LLMs (via Ollama) paired with a ChromaDB RAG vector store to semantically evaluate text and generate contextual explanations for users.
 
       - name: Poker Dice Web
         date: 2025
