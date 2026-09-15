@@ -6,7 +6,7 @@
   name: "André Vaz",
   title: "André Vaz - CV",
   footer: context { [#emph[André Vaz -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in May 2026] ],
+  top-note: [ #emph[Last updated in Sept 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 5,
-    day: 4,
+    month: 9,
+    day: 15,
   ),
 )
 
@@ -91,48 +91,103 @@
 #connections(
   [#connection-with-icon("location-dot")[Lisbon, Portugal]],
   [#link("mailto:andrevaz2005@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[andrevaz2005\@gmail.com]]],
-  [#link("tel:+351-935-248-411", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[935 248 411]]],
+  [#link("tel:+351-935-248-411", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[+351 935 248 411]]],
   [#link("https://andrevaz51585.github.io/portfolio-andrevaz/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[andrevaz51585.github.io\/portfolio-andrevaz]]],
-  [#link("https://linkedin.com/in/andré-filipe-de-sousa-vaz-491632333", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[andré-filipe-de-sousa-vaz-491632333]]],
+  [#link("https://linkedin.com/in/andré-filipe-de-sousa-vaz", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[andré-filipe-de-sousa-vaz]]],
   [#link("https://github.com/AndreVaz51585", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[AndreVaz51585]]],
 )
 
 
 == Summary
 
-Computer Engineering student based in Lisbon with a strong passion for software development, problem solving, and building real-world applications. Focused on full-stack development, system design, and understanding low-level computing concepts. Highly motivated to grow in the fields of Cybersecurity and Artificial Intelligence, with hands-on experience across backend systems, web applications, and mobile development.
+Computer Engineering graduate currently pursuing a Master's degree while working in AI & Data Consulting. I am especially interested in the intersection of Artificial Intelligence and Cybersecurity: understanding how AI can be applied responsibly while building systems that remain secure and resilient. I enjoy thinking deeply about a project's architecture, turning ideas into a clear technical direction before implementation begins.
 
-
-== Education
-
-#education-entry(
-  [
-    #strong[Instituto Superior de Engenharia de Lisboa (ISEL)]
-
-    #emph[Bachelor of Engineering - Computer Science and Engineering]
-
-    - Current Grade: 14\/20.
-
-    
-
-    - Final-year student planning to pursue a Master's degree in Computer Engineering with specialization in Cybersecurity and Artificial Intelligence.
-
-  ],
-  [
-    Sept 2023 – present
-
-  ],
-)
 
 == Skills
 
 #strong[Programming Languages:] Kotlin, JavaScript, Python, C, Assembly, HTML, CSS, TypeScript.
 
-#strong[Web & Frameworks:] Spring Boot, React, FastApi, LangChain, Node.js, Express, http4k, Jakarta, JPA
+#strong[Web & Frameworks:] Spring Boot, React, FastAPI, LangChain, LangGraph, Node.js, Express, http4k, Jakarta, JPA
 
-#strong[Databases & DevOps:] PostgreSQL, MongoDB, JDBC, JDBI,ChromaDB, Docker, Nginx
+#strong[Databases & DevOps:] PostgreSQL, MongoDB, JDBC, JDBI, ChromaDB, Docker, Nginx
 
 #strong[Mobile & Tools:] Jetpack Compose, Android Studio, Render, ngrok
+
+== Relevant Work Experience
+
+#regular-entry(
+  [
+    #strong[EY], Assistant - AI & Data Consulting
+
+    - Contributing to AI & Data Consulting projects while pursuing a Master's degree in Computer Engineering, with a particular interest in secure and responsible AI systems.
+
+  ],
+  [
+    Lisbon, Portugal
+
+    Sept 2026 – present
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[EY], Summer Intern - AI & Data Consulting
+
+    - Designed and developed an AI agent for mapping a company's external attack surface, combining automated discovery, crawling, vulnerability scanning, and security analysis.
+
+    
+
+    - Integrated OWASP Amass, Katana, Crawl4AI, Tavily, Nuclei, and Nikto into an agentic workflow for asset discovery, reconnaissance, and security assessment.
+
+    
+
+    - Structured the agent's tool orchestration and analysis pipeline to consolidate findings and support a clearer understanding of exposed assets and potential vulnerabilities.
+
+  ],
+  [
+    Lisbon, Portugal
+
+    Aug 2026 – Sept 2026
+
+  ],
+)
+
+== Education
+
+#education-entry(
+  [
+    #strong[NOVA School of Science and Technology (NOVA FCT)]
+
+    #emph[Master of Science - Computer Engineering]
+
+    - Specialization in Artificial Intelligence with a minor in Cybersecurity.
+
+  ],
+  [
+    Lisbon, Portugal
+
+    Sept 2026 – present
+
+  ],
+)
+
+#education-entry(
+  [
+    #strong[Instituto Superior de Engenharia de Lisboa (ISEL)]
+
+    #emph[Bachelor of Engineering - Computer Science and Computer Engineering]
+
+    - Final grade: 15\/20.
+
+  ],
+  [
+    Lisbon, Portugal
+
+    Sept 2023 – 2026
+
+  ],
+)
 
 == Projects
 
@@ -165,21 +220,21 @@ Computer Engineering student based in Lisbon with a strong passion for software 
 
 #regular-entry(
   [
-    #strong[Veridict AI]
+    #strong[EvoLab Chatbot]
 
-    - Advanced security analysis engine to detect phishing links, malicious text, and smishing attempts in real-time.
-
-    
-
-    - Implemented a 3-tier evaluation system (Rules Engine, Reputation Service, and AI Engine) to compute a weighted risk score and classify security threats.
+    - Built an AI chatbot for the EvoLab final-year project using Python, FastAPI, and the LangChain framework to expose conversational endpoints.
 
     
 
-    - Integrated Google Safe Browsing API, DNS resolution checks, and WHOIS domain age lookups for live threat verification.
+    - Implemented a Retrieval-Augmented Generation (RAG) pipeline backed by ChromaDB, enabling the assistant to answer questions using project documents stored in a vector database.
 
     
 
-    - Utilized local LLMs (via Ollama) paired with a ChromaDB RAG vector store to semantically evaluate text and generate contextual explanations for users.
+    - Developed a lightweight frontend integration with JavaScript, HTML, and CSS, using an Immediately Invoked Function Expression (IIFE) to generate the chatbot UI dynamically.
+
+    
+
+    - Designed the frontend script to be embedded directly in the EvoLab application, sending requests to the local FastAPI service.
 
   ],
   [
@@ -205,6 +260,33 @@ Computer Engineering student based in Lisbon with a strong passion for software 
     Lisbon, Portugal
 
     2025
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Veridict AI]
+
+    - Advanced security analysis engine to detect phishing links, malicious text, and smishing attempts in real-time.
+
+    
+
+    - Implemented a 3-tier evaluation system (Rules Engine, Reputation Service, and AI Engine) to compute a weighted risk score and classify security threats.
+
+    
+
+    - Integrated Google Safe Browsing API, DNS resolution checks, and WHOIS domain age lookups for live threat verification.
+
+    
+
+    - Utilized local LLMs (via Ollama) paired with a ChromaDB RAG vector store to semantically evaluate text and generate contextual explanations for users.
+
+  ],
+  [
+    Lisbon, Portugal
+
+    2026
 
   ],
 )
